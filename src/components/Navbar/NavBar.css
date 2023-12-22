@@ -1,0 +1,101 @@
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem ;
+   
+    align-items: center;
+    
+   
+}
+.navbarlogo
+{
+    object-fit: cover;
+    
+    height: 8rem;
+    width: 9rem; 
+
+} 
+.navbarlogo:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 2px rgb(16, 103, 20);
+    
+}
+
+.MenuBarItem
+{
+  display: flex; 
+} 
+.MenuBarItem li
+{
+  padding: 0 1rem; 
+}
+.MenuBarItem li a
+{
+  font-size: 1.2rem;
+  font-weight: 500; 
+}
+.MenuBarItem li a:hover
+{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
+.hamburger{
+  
+  display: none;
+
+}
+
+@media screen and (max-width:1040px) {
+    .MenuBarItem{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        /* background: rgb(20, 20, 20); */
+        background:black;
+        position: absolute;
+        top:0;
+        left: -100%;
+        z-index: -3;
+    }
+
+    .MenuBarItem.active
+    {
+      left: 0;
+    }
+
+        .MenuBarItem li
+        {
+        padding: 1rem 0; 
+        }
+        .MenuBarItem li a
+        {
+          font-size: 1.3rem;
+           
+        }
+        .MenuBarItem li a:hover
+         {
+          color: yellow;
+          border-bottom: none;
+         }
+
+        .navbarlogo
+        {   
+            height: 7rem;
+            width: 8rem;
+            
+
+        }
+        .hamburger{
+  
+         display: initial;
+         
+        }
+       
+    
+
+}
