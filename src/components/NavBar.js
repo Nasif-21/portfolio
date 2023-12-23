@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./NavBar.css"
-import NasLogo from "../../assest/NasLogo.png";
+import NasLogo from "../assest/NasLogo.png";
 import {Link} from "react-router-dom"
 import {FaBars, FaTimes} from 'react-icons/fa';
 

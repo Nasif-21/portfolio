@@ -1,8 +1,6 @@
 //import logo from './logo.svg';
 //import './App.css';
 import './index.css';
-import NavBar from './components/Navbar/NavBar';
-import Intro from './components/Introduction/Intro';
 import Home from './routes/Home';
 import About from './routes/About';
 import Contact from './routes/Contact';
