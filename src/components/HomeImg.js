@@ -13,10 +13,10 @@ const HomeImg = () => {
         <div className='container'>
             <p>Assalamualikum,  </p>
             <p>I am </p>
-            <section class="animation">
-            <div class="first"><div>SHEIKH MUHTASIM NASIF</div></div>
-            <div class="second"><div>Web Developer</div></div>
-            <div class="third"><div>Software Engineer</div></div>
+            <section className="animation">
+            <div className="first"><div>SHEIKH MUHTASIM NASIF</div></div>
+            <div className="second"><div>Web Developer</div></div>
+            <div className="third"><div>Software Engineer</div></div>
              </section>
         </div>
        
