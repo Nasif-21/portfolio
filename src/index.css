@@ -39,18 +39,24 @@ ul
 }
 .btn-light
 {
+  padding: 12px 32px;
   background: transparent;
   color: white;
+  border: 1px solid;
+  cursor: pointer;
 }
 
 .btn:hover{
   text-transform: uppercase;
+  background: yellow;
+  color: black;
   transition: 0.3s;
 
 }
 .btn-light:hover{
   text-transform: uppercase;
   background: white;
+  color: black;
   transition: 0.3s;
 
 }
