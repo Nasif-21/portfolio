@@ -22,7 +22,7 @@ const HomeImg = () => {
             <p>SHEIKH MUHTASIM NASIF</p>
             <h1>Web Developer</h1>
 
-            <Link to="/project" className='btn'>Projects</Link>
+            <Link to="/project" className='btn'> Projects</Link>
             <Link to="/contact" className='btn-light'>Contact</Link>
            
         </div>

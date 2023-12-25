@@ -4,15 +4,23 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem ;
-   
     align-items: center;
-    
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 15;
+
    
 }
+.navbar-bg{
+  background-color: rgb(66, 68, 66, 0.8);
+  transition: 0.5s;
+}
+
 .navbarlogo
 {
     object-fit: cover;
-    
+    margin-top: 5rem;
     height: 8rem;
     width: 9rem; 
 
