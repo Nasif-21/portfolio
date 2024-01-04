@@ -1,7 +1,8 @@
 import React from 'react'
 import "./HomeImg.css";
 import profilepic from "../assest/Profile .png";
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
+//import Project from '../routes/Project';
 
 
 const HomeImg = () => {
@@ -22,7 +23,7 @@ const HomeImg = () => {
             <p>SHEIKH MUHTASIM NASIF</p>
             <h1>Web Developer</h1>
 
-            <Link to="/project" className='btn'> Projects</Link>
+            <Link to='/project'  className='btn'> Projects</Link>
             <Link to="/contact" className='btn-light'>Contact</Link>
            
         </div>

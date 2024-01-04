@@ -1,4 +1,5 @@
 //import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import React from 'react'
 
@@ -35,9 +36,9 @@ const Footer = () => {
                 <p>Want to see my works and my social links</p>
                        
                 <div className="social">
-                <i class="fa-brands fa-github fa-xl"  style={{color: "#ffffff", marginRight: "0.8rem" }}></i>
-                <i class="fa-brands fa-linkedin fa-xl" style={{color: "#ffffff", marginRight: "0.8rem"}}></i>
-                <i class="fa-brands fa-figma fa-xl" style={{color: "#ffffff", marginRight: "0.8rem"}}></i>
+                <Link to="https://github.com/Nasif-21?tab=repositories">  <i className="fa-brands fa-github fa-xl"  style={{color: "#ffffff", marginRight: "0.8rem" }}></i></Link>
+                <Link to="https://www.linkedin.com/in/sheikh-muhtasim-nasif-22951b212"><i className="fa-brands fa-linkedin fa-xl" style={{color: "#ffffff", marginRight: "0.8rem"}}></i></Link>
+                <Link to="https://figma.com/@nasif_21"><i className="fa-brands fa-figma fa-xl" style={{color: "#ffffff", marginRight: "0.8rem"}}></i></Link>
 
                 </div>
             </div>
