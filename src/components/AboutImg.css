@@ -1,28 +1,27 @@
-
-.imagepart
+.AbtMeImgpart
 {
     height: 100vh;
     width: 100%;
    position: relative;
-    
-    
 }
-.ProjImg
+
+.AboutPic
 {
     height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center;
   object-fit: cover;
-
 }
-.Project-imgCom{
+
+.AboutMeIm
+{
     height: 100%;
-    width: 100%;
+    width: 100%; 
 }
 
-
-.imagepart::after{
+.AbtMeImgpart::after
+{
     content: "";
     height: 100%;
     width: 100%;
@@ -31,43 +30,47 @@
    left: 0;
    background-color: black;
    opacity: 0.7; 
-  }
+}
 
-  .Project-imgCom .heading{
+.AboutMeIm .heading3
+{
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
     text-align: center;
-  }
+}
 
- .Project-imgCom .heading h1{
+.AboutMeIm .heading3 h1
+{
     font-size: 3rem;
-   padding: 0.6rem 0 1.5rem;
- }  
+    padding: 0.6rem 0 1.5rem;
+}
 
- .Project-imgCom .heading p
- {
+.AboutMeIm .heading3 p
+{
     font-size: 1.2rem;
     font-weight: 150;
- }
+}
 
- @media screen and (max-width:640px) {
+@media screen and (max-width:640px) {
 
-    .Project-imgCom{
-        height: 100%;
-        width: 100%;
-    }
-    .Project-imgCom .heading h1{
-        font-size: 1.5rem;
-        
-      
-      }
-      
-      .Project-imgCom .heading p{
-        font-size: 0.8rem;
-       
-        
-      }
- 
+    .AboutMeIm
+{
+    height: 100%;
+    width: 100%; 
+}
+
+.AboutMeIm .heading3 h1
+{
+    font-size: 1.5rem;
+    
+}
+
+.AboutMeIm .heading3 p
+{
+    font-size: 0.8rem;
+    
+}
+
 }
